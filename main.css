@@ -70,3 +70,7 @@ li:hover::after {
 .article-title {
   color: #444444;
 }
+
+#hidden {
+  display: none;
+}

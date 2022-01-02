@@ -1,0 +1,39 @@
+{
+    "courses":
+    [
+        {
+            "name": "Math AA HL",
+            "units":
+            [
+                {
+                    "lectures": [
+                        {
+                            "description": "testing",
+                            "content": "test",
+                            "video_link": "https://www.youtube.com/embed/JPlAOhYgB5s"
+                        }
+                    ],
+                    "description": "From patterns to generalizations: sequences, series and proof."
+                }
+            ]
+        },
+        {
+            "name": "Physics",
+            "units":
+            [
+                {
+                    "lectures": [
+                        {
+                            "number": 1,
+                            "description": "testing",
+                            "content": "test",
+                            "video_link": "https://www.youtube.com/embed/JPlAOhYgB5s"
+                        }
+                    ],
+                    "description": "I don't know!"
+                }
+            ]
+        }
+    ]
+}
+
