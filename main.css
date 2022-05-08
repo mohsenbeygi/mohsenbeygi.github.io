@@ -74,3 +74,9 @@ li:hover::after {
 #hidden {
   display: none;
 }
+
+* {
+  direction:rtl;
+  text-align:right;
+  float: right;
+}
