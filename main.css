@@ -78,5 +78,5 @@ li:hover::after {
 * {
   direction:rtl;
   text-align:right;
-  float: right;
+  /* float: right; */
 }
