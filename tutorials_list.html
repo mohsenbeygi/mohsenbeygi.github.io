@@ -11,15 +11,15 @@
 
     <link rel="stylesheet" type="text/css" href="/main.css">
 
-    <title>Online IB</title>
+    <title>Mohsen Beygi</title>
 
-    <link rel="shortcut icon" type="image/png" href="/ib_logo.ico"/>
+    <link rel="shortcut icon" type="image/png" href=""/>
 
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-        <a class="navbar-brand" href="/index.html">Online IB</a>
+        <a class="navbar-brand" href="/index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,11 +27,14 @@
         <div class="collapse navbar-collapse" id="navbarToggle">
           <ul class="navbar-nav md-auto">
             <li class="nav-item active nav-button">
-                <a class="nav-link nav-button" href="/courses_list.html">courses </a>
+                <a class="nav-link nav-button" href="./tutorials_list.html">Tutorials</a>
+            </li>
+            <li class="nav-item active nav-button">
+              <a class="nav-link nav-button" href="./community.html">Community</a>
             </li>
           </ul>
         </div>
-
+        
       </nav>
     </header>
     <div class="col-md" id="courses_div"></div>
@@ -43,20 +46,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/jquery.js"></script>
     <script>
-      $.getJSON("data.json", function(json) {
-        var course;
-        courses_div = document.getElementById("courses_div");
-        for (let i = 0; i < json.courses.length; i++)
-        {
-          course = json.courses[i];
-          courses_div.innerHTML +=
-            '<article class="media content-section">' +
-            '<div class="media-body">' +
-            '    <h2><a class="article-title" href="/units_list.html?course='+ i + '">' + course.name + '</a></h2>' +
-            '</div>' +
-            '</article>';
-        }
-      });
     </script>
 </body>
 </html>
